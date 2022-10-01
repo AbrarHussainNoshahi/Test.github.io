@@ -1,0 +1,69 @@
+
+/*-- Viewports --*/
+@-webkit-viewport {width: device-width;}
+@-moz-viewport {width: device-width;}
+@-ms-viewport {width: device-width;}
+@-o-viewport {width: device-width;}
+@viewport {width: device-width;}
+
+@media only screen and (min-width: 100px) {
+/*-- Nav Settings --*/
+#nav{float:right !important;  /*background: rgba(0,0,0,.3);*/margin-top:0px !important;}
+nav{font-size:0;}
+nav ul{margin:0;padding:0;text-align:center;font-size:18px;}
+nav li{list-style:none;display:inline-block;margin:0;}
+
+nav li a{/*color:#565a66;background:#e2e2e2;text-decoration:none;font-size:1.2em;display:block;padding:0 10px;line-height:72px;border-style:solid;border-width:4px 0 4px 0;border-color:#e2e2e2;*/}
+nav li a:hover{/*color:#000;background:#e2e2e2;border-style:solid;border-width:4px 0 4px 0;border-color:#f80;*/}
+nav li:hover{/*background:#f80;*/}
+
+nav li.logo{padding: 0;text-transform: uppercase;font-size: 1.5em;color: #565a66;line-height:80px;margin:0;background:transparent;}
+span.zbar{color:#f80;}
+
+/*-- Experiment with Menu --*/
+#NavStrip {position: relative;display: block;list-style-type: none;margin:0;padding:0;line-height:50px;}
+#NavStrip ul{text-align:center;}
+#NavStrip li {/*display: inline-block; background-color: #20C1EA;border-radius:;width:15%;list-style:none;color:white;*/}
+#NavStrip li a {-webkit-transition: 0.5s;-moz-transition: 0.5s;-o-transition: 0.5s;-ms-transition: 0.5s;transition: all 0.5s ease 0s;
+/*border-color: #C2C2C2 #E2E2E2 #E2E2E2;display: block;text-decoration: none;border-width: 1px 0px !important;padding: 0px;line-height: 40px;*/}
+#NavStrip li a:hover {/*color: #fff;background-color: #83CE69;*/}
+#NavStrip ul, li {padding:0px;}
+#NavStrip label {display: none;}
+#menu-toggle {display: none; /* hide the checkbox */}
+
+/* max query */
+#NavStrip {text-align:right;}
+#NavStrip label {display: inline-block;float:none;height:50px;width:50px;line-height:50px;text-align:center;color:white;font-size:150%;background:transparent url(../images/hamburger.png) no-repeat center center;; cursor:pointer;background-color:#000;}
+#NavStrip label .hamburger{height:70px;width:70px;background: transparent url(../images/hamburger.png) no-repeat center center;}
+#NavStrip #nav-main {display: none;}
+#NavStrip li {width: 100%;border:0px;display:inline;}
+#menu-toggle:checked + #nav{margin-top:40px !important;}
+#menu-toggle:checked + #nav-main {display: inline-block;width:100%;background:rgba(0,0,0,0.9);padding:15px 0;}
+#NavStrip label:active #nav-main {display: none;}
+#menu-toggle:checked + #nav-main li{margin:0px;border-radius:3px;padding:0;}
+#menu-toggle:checked + #nav-main li a{background:rgba(255,255,255,0.2);width:98%;display:inline-block;font-size:1.3em;;border-radius:3px;padding:3px 10px;margin:3px 1%}
+#menu-toggle:checked + #nav-main li a:hover{background:rgba(0,0,0,0.9);}
+/* #nav{z-index:9999999;top:0;left:0;width:100%;position:absolute;}*/
+#mob-title{display:inline-block;float:left;line-height:50px;padding-left:15px;color:#222;font-size:1.1em;}
+#mob-title a{color:#222;font-size:1.1em;text-decoration:none;}
+}
+
+
+
+
+/*- media queries -*/
+@media only screen and (min-width: 920px) {
+#nav{float:right !important;background: transparent;margin:5px 0px !important;}
+#NavStrip {position: relative;display: block;list-style-type: none;margin:0;padding:0;background-color:transparent;}
+#NavStrip label {float:none;background-color:transparent;}
+#NavStrip #nav-main{display:block;}
+#NavStrip ul{text-align:center;}
+#NavStrip li {display: inline-block; width:auto;list-style:none;margin:0;padding:0;height:auto;}
+#NavStrip li a {padding:10px 7px;/*border-color:#e2e2e2;border-width:4px 0 !important;display:block;padding: 0 10px;line-height:70px;text-decoration:none;color:#444;*/-webkit-transition: 0.5s;-moz-transition: 0.5s;-o-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+#NavStrip li.logo{display:inline-block;}
+#NavStrip li a:hover {background:rgba(0,0,0,0.6);/*border-color:#f80;background:#fff;color:#222;*/}
+#NavStrip ul, li {padding:0px;}
+#NavStrip label {display: none;}
+#mob-title {display: none;}
+#menu-toggle {display: none; /* hide the checkbox */}
+}

@@ -1,0 +1,33 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 01 Oct 2022 16:48:41 at https://copaga.club/mlm/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://copaga.club/mlm/ -O1 "C:\My Web Sites\Copaga 2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/js/jquery/jquery.js (from https://copaga.club/mlm/)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/std_linkedin.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/divider.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/ribbon.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/snowflakes.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/css/images/loading.gif (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/icon-money-r.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/people-u526-r.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/site-u539-r.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/icon-world-r.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/video-u1136-r.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/460-compensation.jpg (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/460-savings.jpg (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/460-tools.jpg (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/icon-contact1-u796.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/icon-contact2-u799.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/icon-contact3-u801.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/icon-contact1-u796-r.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/icon-contact2-u799-r.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/icon-contact3-u801-r.png (from https://copaga.club/mlm/css/style.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/bx_loader.gif (from https://copaga.club/mlm/css/jquerybxslider.css)
+16:49:46	Error: 	"Not Found" (404) at link https://copaga.club/mlm/images/controls.png (from https://copaga.club/mlm/css/jquerybxslider.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 5 seconds : 103 links scanned, 80 files written (10062589 bytes overall) [9833416 bytes received at 151283 bytes/sec], 332312 bytes transferred using HTTP compression in 4 files, ratio 18%, 4.4 requests per connection
+(22 errors, 0 warnings, 0 messages)
